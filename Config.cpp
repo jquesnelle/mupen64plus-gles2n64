@@ -56,8 +56,8 @@ Option configOptions[] =
     {"", NULL, 0},
 
     {"#Screen Settings:", NULL, 0},
-    {"screen width", &config.screen.width, 800},
-    {"screen height", &config.screen.height, 600},
+    {"screen width", &config.screen.width, 640},
+    {"screen height", &config.screen.height, 480},
     {"", NULL, 0},
 
     {"#Window Settings:", NULL, 0},
@@ -66,15 +66,15 @@ Option configOptions[] =
     {"window centre", &config.window.centre, 1},
     {"window xpos", &config.window.xpos, 0},
     {"window ypos", &config.window.ypos, 0},
-    {"window width", &config.window.width, 800},
-    {"window height", &config.window.height, 600},
+    {"window width", &config.window.width, 640},
+    {"window height", &config.window.height, 480},
     {"", NULL, 0},
 
     {"#Framebuffer Settings:",NULL,0},
     {"framebuffer enable", &config.framebuffer.enable, 0},
     {"framebuffer bilinear", &config.framebuffer.bilinear, 0},
-    {"framebuffer width", &config.framebuffer.width, 800},
-    {"framebuffer height", &config.framebuffer.height, 600},
+    {"framebuffer width", &config.framebuffer.width, 640},
+    {"framebuffer height", &config.framebuffer.height, 480},
     {"", NULL, 0},
 
     {"#VI Settings:", NULL, 0},
