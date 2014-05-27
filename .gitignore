@@ -1,0 +1,6 @@
+Debug/
+Release/
+Emscripten/
+*.filters
+*.user
+*.bak
